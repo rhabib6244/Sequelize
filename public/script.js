@@ -7,12 +7,12 @@ async function windowActions() {
 
   data["data"].forEach((item) => {
     let counter = 1;
-    const html = data["data"].map((hall) => {
+    const html = data["data"].map((dininghall) => {
       return `
           <tr>
             <th><span class='id'>${counter++}</span></th>
-            <td><span class='name'>${hall.hall_name}</span></td>
-            <td><span class='address'>${hall.hall_address}</span></td>
+            <td><span class='name'>${dininghall.hall_name}</span></td>
+            <td><span class='address'>${dininghall.hall_address}</span></td>
           </tr>
           `;
     });
