@@ -15,4 +15,10 @@ h1{
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
+    width: min-content;
+}
+
+#chartContainer {
+    margin-left: 10%;
+    margin-top: 10px;
 }
